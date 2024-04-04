@@ -1,5 +1,6 @@
 package pl.tukanmc.tukanhelp;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -11,7 +12,7 @@ public final class TukanHelp extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
 
-        System.out.println('TukanHelp started!');
+        System.out.println("TukanHelp started!");
     }
 
     @Override
@@ -22,7 +23,7 @@ public final class TukanHelp extends JavaPlugin {
             if (sender instanceof Player){
 
                 Player p = (Player) sender;
-
+                p.sendMessage(ChatColor.RED + "Test.");
             }
 
 
@@ -34,5 +35,7 @@ public final class TukanHelp extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+
+        System.out.println("TukanHelp stopped!");
     }
 }
