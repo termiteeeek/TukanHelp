@@ -1,0 +1,4 @@
+name: TukanHelp
+version: '${project.version}'
+main: pl.tukanmc.tukanhelp.TukanHelp
+api-version: '1.20'
