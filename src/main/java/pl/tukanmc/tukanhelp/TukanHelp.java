@@ -23,7 +23,7 @@ public final class TukanHelp extends JavaPlugin {
             if (sender instanceof Player){
 
                 Player p = (Player) sender;
-                p.sendMessage(ChatColor.RED + "Test.");
+                p.sendMessage(ChatColor.RED + "XDD");
             }
 
 
